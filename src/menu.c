@@ -579,7 +579,7 @@ void Menu_Tick(void)
 				{"2", StageId_2_1, "IN THE BACKGROUND", {"GROOVY BRASS", "CONSCIENCE", "YAP SQUAD"}},
 				{"3", StageId_3_1, "IN THE BACKGROUND TWO", {"INTERTWINED", NULL, NULL}},
 				{"4", StageId_4_1, "BOB TAKEOVER", {"JUMP OUT", "RONALD MCDONALD SLIDE", NULL}},
-				{"5", StageId_5_1, "RED SNOW", {"COCOA", "EGGNOG", "WINTER HORRORLAND"}},
+				{"5", StageId_5_1, "MICKEY MOUSE", {"UNHAPPY", "HAPPY", NULL}},
 				{"6", StageId_6_1, "HATING SIMULATOR", {"SENPAI", "ROSES", "THORNS"}},
 				{"7", StageId_7_1, "TANKMAN", {"UGH", "GUNS", "STRESS"}},
 			};
