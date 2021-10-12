@@ -709,7 +709,7 @@ void Menu_Tick(void)
 				{StageId_1_2, "SWING"},
 				{StageId_1_3, "SPLIT"},
 				{StageId_2_1, "GROOVY BRASS"},
-				{StageId_2_2, "SOUTH"},
+				{StageId_2_2, "CONSCIENCE"},
 				{StageId_2_3, "MONSTER"},
 				{StageId_3_1, "PICO"},
 				{StageId_3_2, "PHILLY NICE"},
