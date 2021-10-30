@@ -575,11 +575,11 @@ void Menu_Tick(void)
 				const char *tracks[3];
 			} menu_options[] = {
 				{NULL, StageId_1_4, "TUTORIAL", {"TUTORIAL", NULL, NULL}},
-				{"1", StageId_1_1, "BOB AND BOSIP", {"JUMP IN", "SWING", "SPLIT"}},
-				{"2", StageId_2_1, "IN THE BACKGROUND", {"GROOVY BRASS", "CONSCIENCE", "YAP SQUAD"}},
-				{"3", StageId_3_1, "IN THE BACKGROUND TWO", {"INTERTWINED", NULL, NULL}},
-				{"4", StageId_4_1, "BOB TAKEOVER", {"JUMP OUT", "RONALD MCDONALD SLIDE", NULL}},
-				{"5", StageId_5_1, "MICKEY MOUSE", {"UNHAPPY", "HAPPY", NULL}},
+				{"1", StageId_1_1, "BABY BLUE BROTHER", {"NAP TIME", "KIDZ BOP", "BABY BLUE"}},
+				{"2", StageId_2_1, "BROTHERHOOD RIVALRY", {"TEMPER TANTRUM", "BABYS REVENGE", "UN ADIEU"}},
+				{"3", StageId_3_1, "RUNNING GOBLIN", {"TRACKSTAR", NULL, NULL}},
+				{"4", StageId_4_1, "BOB BOB BOB BOB", {"BABY BOB", "JUST LIKE YOU", "INSIGNIFICANCE"}},
+				{"5", StageId_5_1, "EXTRAS", {"KITTY", "CREDITS", NULL}},
 				{"6", StageId_6_1, "HATING SIMULATOR", {"SENPAI", "ROSES", "THORNS"}},
 				{"7", StageId_7_1, "TANKMAN", {"UGH", "GUNS", "STRESS"}},
 			};
@@ -705,10 +705,10 @@ void Menu_Tick(void)
 			} menu_options[] = {
 				//{StageId_4_4, "TEST"},
 				{StageId_1_4, "TUTORIAL"},
-				{StageId_1_1, "JUMP IN"},
-				{StageId_1_2, "SWING"},
-				{StageId_1_3, "SPLIT"},
-				{StageId_2_1, "GROOVY BRASS"},
+				{StageId_1_1, "NAP TIME"},
+				{StageId_1_2, "KIDZ BOP"},
+				{StageId_1_3, "BABY BLUE"},
+				{StageId_2_1, "BABYS REVENGE"},
 				{StageId_2_2, "CONSCIENCE"},
 				{StageId_2_3, "YAP SQUAD"},
 				{StageId_3_1, "INTERTWINED"},
