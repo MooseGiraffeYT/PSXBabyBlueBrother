@@ -357,13 +357,13 @@ void Menu_Tick(void)
 						break;
 					
 					case 15:
-						menu.font_bold.draw(&menu.font_bold, "FUNKIN", SCREEN_WIDTH2, SCREEN_HEIGHT2 + 8, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "BROTHER", SCREEN_WIDTH2, SCREEN_HEIGHT2 + 8, FontAlign_Center);
 				//Fallthrough
 					case 14:
-						menu.font_bold.draw(&menu.font_bold, "NIGHT", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 8, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "BLUE", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 8, FontAlign_Center);
 				//Fallthrough
 					case 13:
-						menu.font_bold.draw(&menu.font_bold, "FRIDAY", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 24, FontAlign_Center);
+						menu.font_bold.draw(&menu.font_bold, "BABY", SCREEN_WIDTH2, SCREEN_HEIGHT2 - 24, FontAlign_Center);
 						break;
 				}
 				break;
@@ -712,8 +712,8 @@ void Menu_Tick(void)
 				{StageId_2_2, "CONSCIENCE"},
 				{StageId_2_3, "YAP SQUAD"},
 				{StageId_3_1, "INTERTWINED"},
-				{StageId_3_2, "UNHAPPY"},
-				{StageId_3_3, "HAPPY"},
+				{StageId_3_2, "KITTY"},
+				{StageId_3_3, "CREDITS"},
 				{StageId_4_1, "SATIN PANTIES"},
 				{StageId_4_2, "HIGH"},
 				{StageId_4_3, "MILF"},
@@ -822,10 +822,10 @@ void Menu_Tick(void)
 				const char *text;
 				boolean difficulty;
 			} menu_options[] = {
-				{StageId_Kapi_1, "VS KAPI", false},
-				{StageId_Clwn_1, "VS TRICKY", true},
-				{StageId_Clwn_4, "   EXPURGATION", false},
-				{StageId_2_4,    "CLUCKED", false},
+				{StageId_Kapi_1, "I am adding", false},
+				{StageId_Clwn_1, "ports to", true},
+				{StageId_Clwn_4, "freeplay", false},
+				{StageId_2_4,    "MooseGiraffeYT", false},
 			};
 			
 			//Initialize page
