@@ -460,7 +460,7 @@ void Menu_Tick(void)
 			static const char *menu_options[] = {
 				"STORY MODE",
 				"FREEPLAY",
-				"MODS",
+				"CREDITS",
 				"OPTIONS",
 			};
 			
@@ -470,7 +470,7 @@ void Menu_Tick(void)
 			
 			//Draw version identification
 			menu.font_bold.draw(&menu.font_bold,
-				"PSXFUNKIN BY CUCKYDEV",
+				"PSXBABYBLUEBROTHER BY MOOSE",
 				16,
 				SCREEN_HEIGHT - 32,
 				FontAlign_Left
@@ -822,7 +822,7 @@ void Menu_Tick(void)
 				const char *text;
 				boolean difficulty;
 			} menu_options[] = {
-				{StageId_Kapi_1, "I am adding", false},
+				{StageId_Kapi_1, "I ", false},
 				{StageId_Clwn_1, "ports to", true},
 				{StageId_Clwn_4, "freeplay", false},
 				{StageId_2_4,    "MooseGiraffeYT", false},
